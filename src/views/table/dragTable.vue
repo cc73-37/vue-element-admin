@@ -53,8 +53,8 @@
 
     </el-table>
     <!-- $t is vue-i18n global function to translate lang (lang in @/lang)  -->
-    <div class="show-d">{{ $t('table.dragTips1') }} : &nbsp; {{ oldList }}</div>
-    <div class="show-d">{{ $t('table.dragTips2') }} : {{ newList }}</div>
+    <div class="show-d">固定表头, 按照表头顺序排序 : &nbsp; {{ oldList }}</div>
+    <div class="show-d">不固定表头, 按照点击顺序排序 : {{ newList }}</div>
 
   </div>
 </template>
